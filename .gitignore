@@ -1,0 +1,16 @@
+# Dependency (kalau nanti pakai Node.js)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# Sistem operasi
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
