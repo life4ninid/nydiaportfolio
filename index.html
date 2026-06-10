@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nydia Havina — Junior Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">NH<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HOME ===== -->
+  <section id="home">
+    <div class="hero-bg">
+      <div class="hero-glow glow-1"></div>
+      <div class="hero-glow glow-2"></div>
+      <div class="hero-grid"></div>
+    </div>
+
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge reveal">
+          <span class="badge-dot"></span>
+          Available for work
+        </div>
+        <h1 class="hero-name reveal">
+          Nydia<br>
+          <span>Havina</span><span class="accent">.</span>
+        </h1>
+        <p class="hero-headline reveal">
+          <span id="typed-text"></span><span class="cursor">|</span>
+        </p>
+        <p class="hero-intro reveal">
+          Junior Web Developer based in Semarang, Indonesia — turning ideas into functional and user-friendly web solutions.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <!-- Foto hero baru -->
+      <div class="hero-photo reveal">
+        <div class="photo-frame">
+          <img src="assets/images/foto2.png" alt="Nydia Havina Rahmadian" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="section-header reveal">
+      <span class="section-tag">01 — About</span>
+      <h2 class="section-title">Building practical and <em>user-friendly</em> web solutions.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <!-- TODO: Ganti teks about dengan ceritamu sendiri -->
+        <p>I'm <strong>Nydia Havina Rahmadian</strong>, a Junior Web Developer and Information Systems graduate who enjoys building functional, responsive, and user-friendly web applications.</p>
+        <p>My experience includes developing websites, information systems, and web-based applications across academic, institutional, and business projects. I have worked with technologies such as PHP, MySQL, JavaScript, Bootstrap, Python, and Streamlit while continuously improving my problem-solving and development skills.</p>
+        <p>I believe every project is an opportunity to learn and grow. Through each project, I aim to create practical digital solutions that provide real value to users while expanding my knowledge in web development.</p>
+      </div>
+      <div class="about-skills reveal">
+        <p class="skills-heading">Core skills</p>
+          <div class="skill-row"><span>HTML5 & CSS3</span><span class="skill-level">Foundation</span></div>
+          <div class="skill-row"><span>PHP</span><span class="skill-level">Backend</span></div>
+          <div class="skill-row"><span>MySQL</span><span class="skill-level">Database</span></div>
+          <div class="skill-row"><span>JavaScript</span><span class="skill-level">Core</span></div>
+          <div class="skill-row"><span>Bootstrap</span><span class="skill-level">Framework</span></div>
+          <div class="skill-row"><span>Web Application Development</span><span class="skill-level">Development</span></div>      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <span class="section-tag">02 — Projects</span>
+      <h2 class="section-title">Selected<br><em>work.</em></h2>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card reveal"
+        data-num="01"
+        data-title="Infolahtadam IV/Diponegoro Institutional Website"
+        data-year="2025"
+        data-duration="3 Months"
+        data-role="Frontend Developer"
+        data-overview="Developed and maintained frontend pages for a web-based information portal used by Kodam IV/Diponegoro, including the homepage, profile, gallery, activities, and article sections. Focused on responsive layouts, structured content presentation, and user-friendly interface design."
+        data-stack="HTML5, CSS3, JavaScript, Bootstrap"
+        data-images="assets/images/info1.png, assets/images/info2.png, assets/images/info3.png"
+        data-link="#">
+        <div class="card-thumb">
+          <img src="assets/images/cover1.png" alt="Website Infolahta">
+
+          <div class="card-overlay">
+            <div class="overlay-circle">View</div>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-meta">
+            <span class="card-num">01</span>
+            <span class="card-year">2025</span>
+          </div>
+          <h3 class="card-title">Infolahtadam IV/Diponegoro Institutional Website</h3>
+          <div class="card-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Bootstrap</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal"
+        data-num="02"
+        data-title="Kodam IV/Diponegoro Asset Management System"
+        data-year="2025"
+        data-duration="2 Weeks"
+        data-role="UI/UX Designer"
+        data-overview="Contributed to the UI/UX design development of a web-based asset management system used by Kodam IV/Diponegoro to document and manage institutional assets across Central Java and Yogyakarta."
+        data-stack="UI/UX Design, Wireframing, Figma"
+        data-images="assets/images/asset1.png, assets/images/asset2.png, assets/images/asset3.png"
+        data-link="#">
+        <div class="card-thumb">
+          <img src="assets/images/cover2.png" alt="Aset Kodam">
+
+          <div class="card-overlay">
+            <div class="overlay-circle">View</div>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-meta">
+            <span class="card-num">02</span>
+            <span class="card-year">2025</span>
+          </div>
+          <h3 class="card-title">Kodam IV/Diponegoro Asset Management System</h3>
+          <div class="card-tags">
+            <span class="tag">UI/UX Design</span>
+            <span class="tag">Wireframing</span>
+            <span class="tag">Figma</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal"
+        data-num="03"
+        data-title="SIBUNGA - Data Entry System"
+        data-year="2025"
+        data-duration="2 Months"
+        data-role="Frontend Developer"
+        data-overview="Developed a web-based internal data entry system for managing flower arrangement submissions during major military events held by Kodam IV/Diponegoro. Focused on frontend interface development and database management using MySQL to support structured and efficient data documentation."
+        data-stack="HTML5, CSS3, JavaScript, MySQL"
+        data-images="assets/images/sibunga1.png, assets/images/sibunga2.png, assets/images/sibunga3.png"
+        data-link="#">
+        <div class="card-thumb">
+          <img src="assets/images/cover3.png" alt="SIBUNGA - Data Entry System">
+
+          <div class="card-overlay">
+            <div class="overlay-circle">View</div>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-meta">
+            <span class="card-num">03</span>
+            <span class="card-year">2025</span>
+          </div>
+          <h3 class="card-title">SIBUNGA - Data Entry System</h3>
+          <div class="card-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal"
+        data-num="04"
+        data-title="KricketFlow Information System"
+        data-year="2025"
+        data-duration="2 Weeks"
+        data-role="Fullstack Developer"
+        data-overview="Improved and maintained a web-based livestock and financial management system for cricket farming operations. Contributed to frontend interface refinement, feature adjustments, submenu development, and database-related functionality enhancements using Streamlit and Python."
+        data-stack="Python, Streamlit"
+        data-images="assets/images/kricket1.png, assets/images/kricket2.png, assets/images/kricket3.png"
+        data-link="#">
+        <div class="card-thumb">
+          <img src="assets/images/cover4.png" alt="Kricket Flow">
+
+          <div class="card-overlay">
+            <div class="overlay-circle">View</div>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-meta">
+            <span class="card-num">04</span>
+            <span class="card-year">2025</span>
+          </div>
+          <h3 class="card-title">KricketFlow Information System</h3>
+          <div class="card-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Streamlit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal"
+        data-num="05"
+        data-title="Point of Sale System"
+        data-year="2025"
+        data-duration="1 Week"
+        data-role="Fullstack Developer"
+        data-overview="Developed a web-based point of sale system from scratch using Vanilla JavaScript with a single-page application architecture. Implemented product management, transaction processing, CRUD operations, localStorage-based data handling, and thermal receipt print support to create an efficient cashier workflow."
+        data-stack="HTML5, CSS3, Vanilla JavaScript, localStorage"
+        data-images="assets/images/pos1.png, assets/images/pos2.png, assets/images/pos3.png"
+        data-link="#">
+        <div class="card-thumb">
+          <img src="assets/images/cover5.png" alt="Point of Sale System">
+
+          <div class="card-overlay">
+            <div class="overlay-circle">View</div>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-meta">
+            <span class="card-num">05</span>
+            <span class="card-year">2025</span>
+          </div>
+          <h3 class="card-title">Point of Sale System</h3>
+          <div class="card-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Vanilla JavaScript</span>
+            <span class="tag">localStorage</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal"
+        data-num="06"
+        data-title="UI/UX Design Exploration"
+        data-year="2025"
+        data-duration="1 Year"
+        data-role="UI/UX Designer"
+        data-overview="A collection of interface design explorations created during an industry class program, focusing on layout structure, visual hierarchy, responsive interfaces, and modern UI aesthetics across multiple web and mobile concepts."
+        data-stack="Figma, UI Design, Wireframing"
+        data-images="assets/images/class1.png, assets/images/class2.png, assets/images/cover6.png, assets/images/class3.png"
+        data-link="#">
+        <div class="card-thumb">
+          <img src="assets/images/cover6.png" alt="UI/UX Design Exploration">
+
+          <div class="card-overlay">
+            <div class="overlay-circle">View</div>
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-meta">
+            <span class="card-num">06</span>
+            <span class="card-year">2024</span>
+          </div>
+          <h3 class="card-title">UI/UX Design Exploration</h3>
+          <div class="card-tags">
+            <span class="tag">FIgma</span>
+            <span class="tag">UI Design</span>
+            <span class="tag">Responsive UI</span>
+            <span class="tag">Design System</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <span class="section-tag">03 — Skills</span>
+      <h2 class="section-title">What I<br><em>work with.</em></h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-category reveal">
+        <h4>Frontend</h4>
+        <div class="skill-pills">
+          <span class="pill">HTML5</span>
+          <span class="pill">CSS3</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">Bootstrap</span>
+          <span class="pill">Responsive Design</span>
+        </div>
+      </div>
+
+      <div class="skill-category reveal">
+        <h4>Backend & Database</h4>
+        <div class="skill-pills">
+          <span class="pill">PHP</span>
+          <span class="pill">MySQL</span>
+          <span class="pill">Database Integration</span>
+        </div>
+      </div>
+
+      <div class="skill-category reveal">
+        <h4>Tools & Design</h4>
+        <div class="skill-pills">
+          <span class="pill">Git</span>
+          <span class="pill">GitHub</span>
+          <span class="pill">VS Code</span>
+          <span class="pill">Figma</span>
+        </div>
+      </div>
+
+      <div class="skill-category reveal">
+        <h4>Currently Exploring</h4>
+        <div class="skill-pills">
+          <span class="pill">Laravel</span>
+          <span class="pill">Tailwind CSS</span>
+          <span class="pill">React</span>
+          <span class="pill">Vue.js</span>
+          <span class="pill">Streamlit</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATES ===== -->
+  <section id="certificates">
+    <div class="section-header reveal">
+      <span class="section-tag">04 — Certificates</span>
+      <h2 class="section-title">Learning &<br><em>Achievements.</em></h2>
+    </div>
+
+  <div class="cert-grid">
+    <div class="cert-card reveal">
+      <h4>IT Essentials: PC Hardware and Software</h4>
+      <p>Cisco Networking Academy</p>
+      <a href="assets/certificates/cisco-it-essentials.pdf" target="_blank" class="cert-btn">
+        View Credential
+      </a>
+    </div>
+
+    <div class="cert-card reveal">
+      <h4>Java Fundamentals</h4>
+      <p>Oracle Academy</p>
+      <a href="assets/certificates/java-fundamentals.pdf" target="_blank" class="cert-btn">
+        View Credential
+      </a>
+    </div>
+
+    <div class="cert-card reveal">
+      <h4>CCNA: Switching, Routing, and Wireless Essentials</h4>
+      <p>Cisco Networking Academy</p>
+      <a href="assets/certificates/ccna-srwe.pdf" target="_blank" class="cert-btn">
+        View Credential
+      </a>
+    </div>
+
+    <div class="cert-card reveal">
+      <h4>Database Server Administration Competency Test</h4>
+      <p>PT Internet Mulia Untuk Negeri (Nexa)</p>
+      <a href="assets/certificates/nexa-dbms.pdf" target="_blank" class="cert-btn">
+        View Credential
+      </a>
+    </div>
+
+    <div class="cert-card reveal">
+      <h4>Coding & AI Training</h4>
+      <p>Universitas STEKOM</p>
+      <a href="assets/certificates/stekom-coding-ai.pdf" target="_blank" class="cert-btn">
+        View Credential
+      </a>
+    </div>
+  </div>
+</section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="contact-glow"></div>
+    <div class="contact-inner">
+      <div class="section-header reveal">
+        <span class="section-tag">05 — Contact</span>
+        <h2 class="section-title">Let's build<br>something <em>great.</em></h2>
+      </div>
+      <div class="contact-links reveal">
+        <!-- TODO: Ganti dengan data kontakmu yang asli -->
+        <a href="mailto:nydiahavinarahmadian@gmail.com" class="contact-card">
+          <span class="contact-icon">✉</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-val">nydiahavinarahmadian@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/nydiahavinar/" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">in</span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-val">linkedin.com/in/nydiahavinar</span>
+        </a>
+        <a href="https://github.com/life4ninid" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">&#123;&#125;</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-val">github.com/life4ninid</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <span>© 2026 Nydia Havina Rahmadian</span>
+    <span>Built with HTML · CSS · Vanilla JS</span>
+  </footer>
+
+  <!-- ===== PROJECT MODAL ===== -->
+<div id="modal" class="modal-overlay" aria-hidden="true">
+  <div class="modal-box">
+
+    <button class="modal-close" id="modalClose">✕</button>
+
+    <div class="modal-thumb-wrap">
+
+      <div class="swiper projectSwiper">
+        <div class="swiper-wrapper" id="swiperWrapper"></div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+    </div>
+
+    <div class="modal-body">
+      <div class="modal-top">
+      <div class="modal-body">
+        <div class="modal-top">
+          <span class="modal-num" id="modalNum"></span>
+          <div>
+            <h2 class="modal-title" id="modalTitle"></h2>
+            <span class="modal-year-badge" id="modalYear"></span>
+          </div>
+        </div>
+
+        <p class="modal-overview" id="modalOverview"></p>
+        <div class="modal-meta-grid">
+          <div class="modal-meta-item">
+            <span class="meta-label">Role</span>
+            <span class="meta-val" id="modalRole"></span>
+          </div>
+          <div class="modal-meta-item">
+            <span class="meta-label">Duration</span>
+            <span class="meta-val" id="modalDuration"></span>
+          </div>
+        </div>
+        <div class="modal-stack-wrap">
+          <span class="meta-label">Tech Stack</span>
+          <div class="modal-stack" id="modalStack"></div>
+        </div>
+        <a class="modal-link" id="modalLink" href="#" target="_blank" rel="noopener">
+          View Live Project <span>→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
